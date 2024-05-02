@@ -16,7 +16,7 @@ app.use(bodyParser.json())
 
 
 // for the AWS Ec2 machine public Ip where the docker image is running
-app.use(cors({origin: 'http://18.215.180.10:4200'}))
+app.use(cors({origin: 'http://54.173.149.183:4200'}))
 
 
 // cores code should be before this 
